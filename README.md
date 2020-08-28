@@ -1,23 +1,16 @@
-# mind-backend
-
+# Backend
 
 É um projeto desenvolvido com o intuito de conseguir filtrar usuários em sua plataforma, utilizando autenticações, e CRUD, com integração do banco de dados mongo.
 O administrador do sistema será capaz de editar qualquer usuário, desativar ou ativar o usuário da plataforma.
 O usuário é capaz de alterar suas informações e visualizar a mesma.
 ## Começando
 
- 
-
-Para executarmos o projeto é necessario que tenhamos configurado e instalando o backend da aplicação
-
- 
+Para executar o projeto é necessario ter todas as dependencias
 
 ### Requisitos
 
  - Node
- - NPM
- - React Native
- - Backend Iniciado
+
  
 ### Iniciando 
 ```
@@ -30,51 +23,34 @@ $ cd mind-backend
 $ npm install
 ```
 ```
-$ npm start 
+$ nodemon /src/index.js 
 ```
 
-### Configuração
 
-- Precisamos baixar o Backend 
-- Iniciar o servidor para inciarmos os testes
-- Aponta o localhost para o ip do seu computador, para que não ocorra erros nas query
+##Exemplos de testes
 
+### Rotas
+
+ - http://localhost:3000/projects/users [GET]
+ 
+ - http://localhost:3000/auth/autenticated (Utilizada para se autenticação no sistema)[POST]
+ 
+ - http://localhost:3000//auth/register (Utilizada para criar um novo usuário no sistema)[POST]
+ 
+ - http://localhost:3000/projects/users/:id (Utilizada para atualização de usuário) [PUT]
+ 
  
 
 
-## Testes
-
- 
-
-- Faça um cadastro na apliacação, ou insira manualmente no banco de dados as informações de um usuário.
-
- 
-
-- Para obter um  usuário administrador é necessario fazer isso de forma manual.
-
- 
-
-[Backend](https://github.com/junior-apostolo/mind-backend/)
-
- 
 
 ## Autores
 
- 
-
 * **Sergio Apostolo**
-
- 
 
 ## Licença
  
  -Nenhuma
 
- 
-
 ## Agradecimentos
 
- 
-
 * Mind Consulting
- 
